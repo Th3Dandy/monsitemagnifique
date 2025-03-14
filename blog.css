@@ -10,6 +10,15 @@
   font-size: 2.25rem;
 }
 
+.blurred {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.unstretch {
+  object-fit: cover;
+}
+
 .blog-header-logo:hover {
   text-decoration: none;
 }
